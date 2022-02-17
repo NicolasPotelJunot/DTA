@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contacto</title>
+        <meta name="description" content="Desarrollos tecnologicos avanzados">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="icon" type="image/png" href="imagenes/favicon.png">
+        <link rel="stylesheet" href="./css/stylesheet.css">
+        <link rel="stylesheet" href="./css/animate.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <script type="text/javascript" src="javascript/javascript.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    </head>
+    <body class="--body-servicios">
+        <header class="--header" id="header">
+            <div class="--div-nav">
+                <a class="--a-logo-dta-nav" href="index.html">
+                    <img src="imagenes/rediseño-logo.svg" alt="logo dta" class="--img-logo-dta-nav" title="logo dta">
+                </a>
+                <div class="--div-nav-idiomas">
+                    <a class="--a-img-idiomas --a-img-idiomas-castellano" href="index.html" title="español">ES
+                     </a>
+                     <p>|</p>
+                    <a class="--a-img-idiomas" title="english" href="#">EN</a>
+                </div>
+            </div>
+            <div class="button-toggle" id="header-toggle"></div>
+            <nav class="--nav" id="header-nav">
+                <ul class="--ul-nav-">
+                    <li class="--li-nav- --li1-nav-">
+                        <a href="index.html" class="--a-nav-" title="nuestra empresa">NUESTRA EMPRESA</a>
+                    </li>
+                    <li class="--li-nav- --li2-nav-">
+                        <a href="productos-dta.html" class="--a-nav-" title="productos">PRODUCTOS</a>
+                    </li>
+                    <li class="--li-nav- --li3-nav-">
+                        <a href="servicios-dta.html" class="--a-nav-" title="servicios">SERVICIOS</a>
+                    </li>
+                    <li class="--li-nav- --li4-nav-">
+                        <a href="#" class="--a-nav-" title="contacto">CONTÁCTENOS</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div id="ancla-mail"></div>
+        <main class="--main --main-contacto">
+            <h1 class="--h1 --h1-contacto animated rubberBand">CONTÁCTENOS A NUESTRO MAIL</h1>
+            <form class="--form-container-contacto" action="back.php" method="post">
+                <label>
+                    <b>Nombre/s:</b><br><br>
+                    <input type="text" name="nombre" required autofocus placeholder="Ingrese sus datos">
+                </label>
+                <label>
+                    <b>Apellido/s:</b> <br><br>
+                    <input type="text" name="apellido" required autofocus placeholder="Ingrese sus datos">
+                </label>
+                <label class="--label-email"><b> Email:</b> <br><br>
+                    <input type="email" name="email" required placeholder="mail@dominio.com" >		
+                </label>
+                <label><b>Teléfono:</b> <span class="--span-form-contacto">(no obligatorio)</span> <br><br>
+                    <input type="text" name="telefono"  placeholder="Ingrese su telefono">
+                </label>
+                <label><b>Nombre de la empresa:</b> <span class="--span-form-contacto">(no obligatorio)</span> <br><br>
+                    <input type="text" name="empresa" placeholder="Ingrese el nombre de su empresa">
+                </label>
+                <label for="textInfo" class="--label-mensaje"><b>Mensaje:</b><br><br>
+                    <textarea name="info" cols="50" rows="10" placeholder="¿Cómo te podemos ayudar?"></textarea>
+                </label>
+                <div class="--div-input-submit">
+                    <input type="submit" value="Enviar" title="enviar" class="--submit-contacto">
+                </div>
+            </form>
+            <div class="--div-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d176.1380856147295!2d-64.12395418961893!3d-31.440998231377066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432bd1ff6702485%3A0xc9434a7b26d90555!2sCalingasta+4855%2C+X5006AAC+C%C3%B3rdoba!5e1!3m2!1ses-419!2sar!4v1556765489495!5m2!1ses-419!2sar" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+        </main>
+        <footer class="--footer">
+            <div class="--div-content-detail-footer">
+               <div class="--div-detail-1 --div-detail">
+                    <h4 class="--h4-detail">Ubicación</h4>
+                    <p class="--p-detail">Montevideo 281 - 5to piso <br> C.P. 5000 - Córdoba</p>
+               </div>
+               <div class="--div-detail-2 --div-detail">
+                    <h4 class="--h4-detail">Teléfono</h4>
+                    <p class="--p-detail">+54 0351 4236964</p>
+               </div>
+               <div class="--div-detail-3 --div-detail">
+                    <h4 class="--h4-detail">Email</h4>
+                    <p class="--p-detail">info@grupodta.com.ar</p>
+               </div>
+            </div>
+            <div class="--div-content-footer">
+               <div class="--div-description-footer-left">
+                   <i class="--i-description-footer">
+                        <img src="imagenes/rediseño-logo-blanco.svg" alt="logo dta" class="--img-logo-dta">
+                   </i>
+                   <p class="--p-detail --p-detail-dta">" Desarrollos Tecnológicos Avanzados S.R.L "
+                   </p>
+               </div>
+               <div class="--div-description-footer-right">
+                    <p class="--p-detail">Planta industrial y laboratorio: </p>
+                    <p class="--p-detail">Calingasta 4855 - Córdoba</p>
+               </div>
+            </div>
+            <div class="--div-small-footer">
+               <small class="--small-footer">&#169 2018 "Desarrollos Tecnológicos Avanzados S.R.L" - Todos Los Derechos Reservados.</small>
+           </div>
+        </footer>
+    </body>
+</html>
